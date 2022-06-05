@@ -14,10 +14,11 @@ namespace TheArtOfUnitTesting.Tests
 
             myFakeManager.WillThrow = new Exception("this is fake");
 
-            LogAnalyzerManager log = new LogAnalyzerManager(myFakeManager);
-            bool result = log.IsValidLogFileName("anything.anyextension");
+            LogAnalyzerManager log = new LogAnalyzerManager();
+            log.ExtensionManager = myFakeManager;
+            var actual = log.ExtensionManager.IsValid("");
 
-            Assert.False(result);
+            Assert.False(actual);
         }
     }
 }

@@ -4,10 +4,16 @@ namespace TheArtOfUntTesting.Managers
 {
     public class LogAnalyzerManager
     {
-        private readonly IExtensionManager _manager;
-        public LogAnalyzer(IExtensionManager manager)
+        private IExtensionManager _manager;
+        public IExtensionManager ExtensionManager
         {
-            _manager = manager;
+            get { return _manager; }
+            set { _manager = value; }
+        }
+
+        public LogAnalyzerManager()
+        {
+            _manager = new FileExtensionManager();
         }
 
         public bool IsValidLogFileName(string fileName)
