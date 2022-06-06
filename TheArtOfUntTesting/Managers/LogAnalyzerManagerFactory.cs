@@ -7,13 +7,13 @@ namespace TheArtOfUntTesting.Managers
     {
         public bool IsValidLogFileName(string fileName)
         {
-            return GetManager().IsValid(fileName)
-                && Path.GetFileNameWithoutExtension(fileName).Length > 5;
+            return this.IsValid(fileName);
         }
 
-        protected virtual IExtensionManager GetManager()
+        protected virtual bool IsValid(string fileName)
         {
-            return new FileExtensionManager();
+            FileExtensionManager mgr = new FileExtensionManager();
+            return mgr.IsValid(fileName);
         }
     }
 }

@@ -5,15 +5,14 @@ namespace TheArtOfUntTesting.Managers
 {
     public class LogAnalyzerManager : LogAnalyzerManagerFactory
     {
-        public IExtensionManager Manager;
-        public LogAnalyzerManager(IExtensionManager manager)
+        public bool IsSupported;
+        public LogAnalyzerManager()
         {
-            Manager = manager;
         }
 
-        protected override IExtensionManager GetManager()
+        protected override bool IsValid(string fileName)
         {
-            return Manager;
+            return IsSupported;
         }
     }
 }
