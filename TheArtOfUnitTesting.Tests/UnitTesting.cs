@@ -1,5 +1,6 @@
 using System;
 using TheArtOfUnitTesting.Tests.ManagersTests;
+using TheArtOfUntTesting;
 using TheArtOfUntTesting.Managers;
 using Xunit;
 
@@ -8,17 +9,30 @@ namespace TheArtOfUnitTesting.Tests
     public class UnitTesting
     {
         [Fact]
+        public void OverrideTestWithoutStub()
+        {
+            LogAnalyzerManager manager = new LogAnalyzerManager();
+            manager.IsSupported = true;
+
+            bool result = manager.IsValidLogFileName("file.ext");
+
+            Assert.True(result, "...");
+        }
+
+        [Fact]
         public void IsValidFileName_NameSupportedExtension_ReturnsTrue()
         {
-            FakeExtensionManager myFakeManager = new FakeExtensionManager();
+            Assert.True(true);
+            //FakeExtensionManager myFakeManager = new FakeExtensionManager
+            //{
+            //    WillBeValid = true
+            //};
 
-            myFakeManager.WillThrow = new Exception("this is fake");
+            //LogAnalyzerManager lam = new LogAnalyzerManager(myFakeManager);
 
-            LogAnalyzerManager log = new LogAnalyzerManager();
-            log.ExtensionManager = myFakeManager;
-            var actual = log.ExtensionManager.IsValid("");
+            //bool actual = lam.IsValidLogFileName("file.ext");
 
-            Assert.False(actual);
+            //Assert.False(actual);
         }
     }
 }

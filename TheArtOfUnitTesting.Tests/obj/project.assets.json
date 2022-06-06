@@ -5936,28 +5936,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nurdaulet\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\khozhakeldiyev_n\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUnitTesting.Tests\\TheArtOfUnitTesting.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUnitTesting.Tests\\TheArtOfUnitTesting.Tests.csproj",
       "projectName": "TheArtOfUnitTesting.Tests",
-      "projectPath": "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUnitTesting.Tests\\TheArtOfUnitTesting.Tests.csproj",
-      "packagesPath": "C:\\Users\\Nurdaulet\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUnitTesting.Tests\\obj\\",
+      "projectPath": "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUnitTesting.Tests\\TheArtOfUnitTesting.Tests.csproj",
+      "packagesPath": "C:\\Users\\khozhakeldiyev_n\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUnitTesting.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nurdaulet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\khozhakeldiyev_n\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -5970,8 +5967,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj": {
-              "projectPath": "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj"
+            "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj": {
+              "projectPath": "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj"
             }
           }
         }
@@ -6017,26 +6014,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
