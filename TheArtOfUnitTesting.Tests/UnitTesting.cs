@@ -1,5 +1,6 @@
 using System;
 using TheArtOfUnitTesting.Tests.ManagersTests;
+using TheArtOfUntTesting;
 using TheArtOfUntTesting.Managers;
 using Xunit;
 
@@ -10,13 +11,14 @@ namespace TheArtOfUnitTesting.Tests
         [Fact]
         public void IsValidFileName_NameSupportedExtension_ReturnsTrue()
         {
-            FakeExtensionManager myFakeManager = new FakeExtensionManager();
+            FakeExtensionManager myFakeManager = new FakeExtensionManager
+            {
+                WillBeValid = true
+            };
 
-            myFakeManager.WillThrow = new Exception("this is fake");
+            LogAnalyzerManager lam = new LogAnalyzerManager(myFakeManager);
 
-            LogAnalyzerManager log = new LogAnalyzerManager();
-            log.ExtensionManager = myFakeManager;
-            var actual = log.ExtensionManager.IsValid("");
+            bool actual = lam.IsValidLogFileName("file.ext");
 
             Assert.False(actual);
         }

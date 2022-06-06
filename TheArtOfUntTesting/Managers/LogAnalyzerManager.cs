@@ -1,24 +1,19 @@
-﻿using TheArtOfUntTesting.Interfaces;
+﻿using System.IO;
+using TheArtOfUntTesting.Interfaces;
 
 namespace TheArtOfUntTesting.Managers
 {
-    public class LogAnalyzerManager
+    public class LogAnalyzerManager : LogAnalyzerManagerFactory
     {
-        private IExtensionManager _manager;
-        public IExtensionManager ExtensionManager
+        public IExtensionManager Manager;
+        public LogAnalyzerManager(IExtensionManager manager)
         {
-            get { return _manager; }
-            set { _manager = value; }
+            Manager = manager;
         }
 
-        public LogAnalyzerManager()
+        protected override IExtensionManager GetManager()
         {
-            _manager = new FileExtensionManager();
-        }
-
-        public bool IsValidLogFileName(string fileName)
-        {
-            return _manager.IsValid(fileName);
+            return Manager;
         }
     }
 }
