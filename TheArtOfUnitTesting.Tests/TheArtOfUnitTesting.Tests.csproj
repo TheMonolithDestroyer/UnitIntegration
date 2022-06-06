@@ -23,8 +23,4 @@
     <ProjectReference Include="..\TheArtOfUntTesting\TheArtOfUntTesting.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Fakes\" />
-  </ItemGroup>
-
 </Project>
