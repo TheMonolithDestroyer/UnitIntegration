@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uP1nTvcEfK1Fl3dnMI1tPRYU/PvMzRbLTFPUj/hKJdWybn5Gb3rknGvnHDUeWc3ZwCVqTrUSU3Zeut4RVuNl2w==",
+  "dgSpecHash": "avCZ/87A4tlAkPVPudMZ7rxVZNUVOkU3eweGKIpxBFgcscXqEAfkV76ygEDmqCS5ToyTqqV6madSR0225BIllQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nurdaulet\\source\\repos\\TheArtOfUntTesting\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Nurdaulet\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512",
-    "C:\\Users\\Nurdaulet\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
-    "C:\\Users\\Nurdaulet\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
-    "C:\\Users\\Nurdaulet\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\khozhakeldiyev_n\\source\\repos\\UnitIntegration\\TheArtOfUntTesting\\TheArtOfUntTesting.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
