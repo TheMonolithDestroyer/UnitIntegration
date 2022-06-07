@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheArtOfUntTesting", "TheArtOfUntTesting\TheArtOfUntTesting.csproj", "{C958813C-FE0A-4D0A-9826-ABE0DBA22CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheArtOfUntTesting", "TheArtOfUntTesting\TheArtOfUntTesting.csproj", "{C958813C-FE0A-4D0A-9826-ABE0DBA22CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheArtOfUnitTesting.Tests", "TheArtOfUnitTesting.Tests\TheArtOfUnitTesting.Tests.csproj", "{5CB8E1FB-5F78-4BE2-840A-C5F32991222E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TheArtOfUnitTesting.Tests", "TheArtOfUnitTesting.Tests\TheArtOfUnitTesting.Tests.csproj", "{5CB8E1FB-5F78-4BE2-840A-C5F32991222E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
